@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="false">
+    <test name="AllTests">
+        <classes>
+            <class name="Tests.RegistrationTest"/>
+            <class name="Tests.LoginTest"/>
+            <class name="Tests.AddToCartTest"/>
+            <class name="Tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
