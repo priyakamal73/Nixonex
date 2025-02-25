@@ -1,25 +1,24 @@
 # Nixonex
-Project Overview
 
+## Project Overview
 This project involves automating the entire commerce flow of the Demo Blaze e-commerce platform using Selenium WebDriver and TestNG in Java. The goal is to ensure the website's key functionalities work correctly.
-Features
-Automated Web testing using Selenium WebDriver
-Implements Page Object Model (POM) for better maintainability
-Generates Extent Reports with screenshots for failed test cases
-Utilizes Hooks  for efficient test management
-Tech Stack
-Language: Java
-Web Automation: Selenium WebDriver
-IDE: IntelliJ IDEA
-Build Tool: Maven
-Unit Testing Framework: TestNG
-Reporting: Extent Reports, Default Cucumber HTML Reports
 
+## Features
+- Automated Web testing using Selenium WebDriver
+- Implements Page Object Model (POM) for better maintainability
+- Generates Extent Reports with screenshots for failed test cases
+- Utilizes Hooks for efficient test management
 
+## Tech Stack
+- **Language:** Java
+- **Web Automation:** Selenium WebDriver
+- **IDE:** IntelliJ IDEA
+- **Build Tool:** Maven
+- **Unit Testing Framework:** TestNG
+- **Reporting:** Extent Reports, Default Cucumber HTML Reports
 
-
-
-Folder Structure
+## Folder Structure
+```
 Nixonex
 │── .idea
 │── screenshots
@@ -49,16 +48,20 @@ Nixonex
 │── testng.xml
 │── External Libraries
 │── Scratches and Consoles
+```
 
+## Configuration
+Update `config.properties` to set values for signup, login, and shipping details.
 
-Configuration
-Update config.properties for signup, login and shipping details.
-
-
-Running Tests
-Execute the entire project  from testng.xml or with the following command
-
+## Running Tests
+Execute the entire test suite from `testng.xml` or use the following command:
+```sh
 mvn test -DsuiteXmlFile=testng.xml
+```
 
-Extent Report
-The extent report can be found with the name `ExtentReport.html` where each test will have its respective screenshot attached.
+## Extent Report
+The Extent Report is generated as `ExtentReport.html`, where each test will have its respective screenshot attached.
+
+---
+### Author
+*Sanmukapriya*  
