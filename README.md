@@ -1,4 +1,4 @@
-# Nixonex
+# Nixonex E-Commerce Site
 
 ## Project Overview
 This project involves automating the entire commerce flow of the Demo Blaze e-commerce platform using Selenium WebDriver and TestNG in Java. The goal is to ensure the website's key functionalities work correctly.
@@ -63,5 +63,3 @@ mvn test -DsuiteXmlFile=testng.xml
 The Extent Report is generated as `ExtentReport.html`, where each test will have its respective screenshot attached.
 
 ---
-### Author
-*Sanmukapriya*  
